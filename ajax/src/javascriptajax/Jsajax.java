@@ -20,6 +20,6 @@ public class Jsajax extends HttpServlet {
 		String name = request.getParameter("name");
 		request.setAttribute("age", 14);
 		request.getRequestDispatcher("/jsajax.jsp").forward(request, response);
-		System.out.println(name);
+
 	}
 }
